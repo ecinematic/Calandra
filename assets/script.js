@@ -12,7 +12,11 @@ function initPage() {
     var fivedayEl = document.getElementById("fiveday-header");
     var todayweatherEl = document.getElementById("today-weather");
     let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
-    
+
+        // Assign a unique API (https://home.openweathermap.org/api_keys) to a variable
+        const APIKey = "8445e760e99b8e927a3296feda76f78b";
+
+        
 }
 
 initPage();
